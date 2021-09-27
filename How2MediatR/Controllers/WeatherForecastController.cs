@@ -21,9 +21,9 @@ namespace How2MediatR.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<WeatherForecast>> GetAsync(ushort days)
+        public async Task<IEnumerable<WeatherForecast>> GetAsync(int days, string location)
         {
-            var response = await _mediator.Send(new GetForecastByDaysQuery(days));
+            var response = await _mediator.Send(new GetForecastByDaysQuery(days, location));
             return response;
         }
     }

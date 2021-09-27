@@ -23,7 +23,7 @@ namespace How2MediatR.Queries
 
         public Task<IEnumerable<WeatherForecast>> Handle(GetForecastByDaysQuery request, CancellationToken cancellationToken)
         {
-            _logger.LogInformation("Sending request {@Request} to IllustrationService", request);
+            _logger.LogInformation("Sending request {@Request}", request);
             var rng = new Random();
             var result = Enumerable.Range(1, request.Days).Select(index => new WeatherForecast
             {
