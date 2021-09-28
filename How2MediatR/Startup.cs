@@ -1,3 +1,5 @@
+using How2MediatR.Contracts;
+using How2MediatR.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +28,7 @@ namespace How2MediatR
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "How2MediatR", Version = "v1" });
             });
+            services.AddTransient<ITemperatureRepository, TemperatureRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

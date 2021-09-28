@@ -1,10 +1,13 @@
-﻿using System.Linq;
+﻿using How2MediatR.Contracts;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace How2MediatR.Database.Searches
+namespace How2MediatR.Repositories
 {
-    public class TemperatureRangeSearch
+    public class TemperatureRepository : ITemperatureRepository
     {
         public TemperatureRange GetTemperatures(string location)
         {
