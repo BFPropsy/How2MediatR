@@ -1,5 +1,5 @@
-using How2MediatR.Contracts;
-using How2MediatR.Repositories;
+using How2MediatR.Core.Contracts;
+using How2MediatR.Infrastructure.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "How2MediatR", "How2MediatR\How2MediatR.csproj", "{8A5E8C6F-504A-40EA-AC21-7C281DD8A8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "How2MediatR", "How2MediatR\How2MediatR.csproj", "{8A5E8C6F-504A-40EA-AC21-7C281DD8A8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AEA6CDE6-A8D3-4583-9556-6009A25EA6B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8A5E8C6F-504A-40EA-AC21-7C281DD8A8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5E8C6F-504A-40EA-AC21-7C281DD8A8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5E8C6F-504A-40EA-AC21-7C281DD8A8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA6CDE6-A8D3-4583-9556-6009A25EA6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA6CDE6-A8D3-4583-9556-6009A25EA6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA6CDE6-A8D3-4583-9556-6009A25EA6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA6CDE6-A8D3-4583-9556-6009A25EA6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

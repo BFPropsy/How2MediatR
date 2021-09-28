@@ -1,11 +1,11 @@
-﻿using How2MediatR.Contracts;
-using System;
-using System.Collections.Generic;
+﻿using How2MediatR.Core.Contracts;
+using How2MediatR.Core.Model;
+using How2MediatR.Infrastructure.Database;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace How2MediatR.Repositories
+namespace How2MediatR.Infrastructure.Repositories
 {
     public class TemperatureRepository : ITemperatureRepository
     {

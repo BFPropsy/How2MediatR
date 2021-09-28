@@ -1,4 +1,5 @@
-﻿using How2MediatR.Queries;
+﻿using How2MediatR.Core.Model;
+using How2MediatR.Core.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

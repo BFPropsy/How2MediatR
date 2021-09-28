@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace How2MediatR
+namespace How2MediatR.Core.Model
 {
     public class WeatherForecast
     {

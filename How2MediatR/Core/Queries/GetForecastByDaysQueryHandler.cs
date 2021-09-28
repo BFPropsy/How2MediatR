@@ -5,9 +5,10 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using How2MediatR.Contracts;
+using How2MediatR.Core.Model;
+using How2MediatR.Core.Contracts;
 
-namespace How2MediatR.Queries
+namespace How2MediatR.Core.Queries
 {
     public class GetForecastByDaysQueryHandler : IRequestHandler<GetForecastByDaysQuery, IEnumerable<WeatherForecast>>
     {
