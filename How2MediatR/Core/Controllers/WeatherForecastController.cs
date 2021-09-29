@@ -2,7 +2,6 @@
 using How2MediatR.Core.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -13,11 +12,9 @@ namespace How2MediatR.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMediator mediator)
+        public WeatherForecastController(IMediator mediator)
         {
-            _logger = logger;
             _mediator = mediator;
         }
 
